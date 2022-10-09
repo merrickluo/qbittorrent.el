@@ -2,8 +2,8 @@
 ;;
 ;; Copyright (C) 2022 A.I.
 ;;
-;; Author: A.I. <merrick@luois.me>
-;; Maintainer: A.I. <merrick@luois.me>
+;; Author: Merrick Luo <merrick@luois.me>
+;; Maintainer: Merrick Luo <merrick@luois.me>
 ;; Created: October 07, 2022
 ;; Modified: October 07, 2022
 ;; Version: 0.0.1
