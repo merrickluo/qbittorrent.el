@@ -40,6 +40,11 @@
     map)
   "Keymap used in the qbittorrent-mode buffer.")
 
+(when (require 'evil nil 'noerror)
+  (evil-define-key 'normal qbittorrent-mode-map "a" 'qbittorrent-dispatch-add)
+  (evil-define-key 'normal qbittorrent-mode-map "q" 'qbittorrent-quit)
+  (evil-define-key 'normal qbittorrent-mode-map "'" 'qbittorrent-dispatch))
+
 ;;;; Customization
 
 (defgroup qbittorrent nil
